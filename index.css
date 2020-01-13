@@ -72,11 +72,15 @@ nav {
 }
 
 .fa-upload {
-    margin-right: 10px;
+    margin-right: 40px;
+    cursor: pointer;
+    color: gray;
+    font-size: 25px;
 }
 .nav-logo {
     width: 100px;
     height: 30px;
+    cursor: pointer;
 }
 .nav {
     display: flex;
@@ -90,4 +94,39 @@ nav {
 }
 .nav-right {
     justify-content: flex-end;
+}
+input[type="text"] {
+    margin-right: -7px;
+    padding-left: 4px;
+    width: 400px;
+    height: 35px;
+    border-style: none;
+    background-color: transparent;
+}
+.nav-search-button{
+    border-radius: 2px;
+    border: 1px solid lightgray;
+}
+.search-button {
+    height: 35px;
+    border-style: none;
+    width: 40px;
+    background-color: lightgray;
+    cursor: pointer;
+}
+.sign-in-button{
+    cursor: pointer;
+    height: 35px;
+    background-color: rgb(22, 122, 198);
+    color: white;
+    border-style: none;
+    border-radius: 3px;
+    width: 100px;
+}
+main{
+    width: 90%;
+    margin: 0 auto;
+}
+.video-player{
+    margin-top: 40px;
 }
