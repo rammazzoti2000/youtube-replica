@@ -183,8 +183,9 @@ h1 {
 .left-content {
     display: block;
     width: 70%;
+    border-bottom: 1px solid lightgray;
+    margin-bottom: 20px;
 }
-
 
 .likes-dislikes-shares {
     font-weight: bold;
@@ -216,3 +217,59 @@ button, label, fas .fa-thumbs-up, .fa-thumbs-down, .fa-share, .fa-folder-plus, .
 /*sentiment-bar end*/
 
 /*main-content end*/
+
+.channel-section {
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row;
+}
+
+.avatar-section {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+}
+
+.channel-avatar-logo {
+    display: block;
+    margin-right: auto;
+}
+
+.channel-name {
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+    font-size: 1.4rem;
+}
+
+.fa-check-circle {
+    color: gray;
+    margin-left: 2px;
+    font-size: 1.2rem;
+}
+
+.subscribers {
+    color: rgb(110, 109, 109);
+    font-size: 1.2rem;
+    line-height: 2;
+}
+
+.title-channel {
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.subscribe-button {
+    background-color: #c00;
+    color: white;
+    font-weight: bold;
+    border-style: none;
+    border-radius: 2px;
+    width: 105px;
+    height: 36px;
+    margin-top: 10px;
+}
+
+.description-section {
+    margin: 20px 0px 20px 58px;
+}
