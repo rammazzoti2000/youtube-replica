@@ -1,0 +1,486 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+* {
+    box-sizing: border-box;
+    font-family: Roboto, Arial, sans-serif;
+}
+
+
+html{
+    font-size: 65%;
+}
+
+
+/* nav-bar start*/
+header {
+    width: 100%;
+    height: auto;
+}
+
+nav {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    padding: 10px 20px;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 2;
+}
+
+.fa-bars {
+    vertical-align: middle;
+    cursor: pointer;
+    align-content: center;
+    margin-right: 20px;
+    font-size: 2rem;
+}
+
+.nav-logo {
+    width: 100px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+
+}
+
+.nav-left {
+    justify-content: flex-start;
+    
+
+}
+
+input[type="text"] {
+    margin-right: -7px;
+    padding-left: 6px;
+    width: 460px;
+    height: 30px;
+    border-style: none;
+    background-color: transparent;
+    font-size: 1.6rem;
+}
+
+.nav-search-button{
+    border-radius: 3px;
+    border: 1px solid lightgray;
+}
+
+.search-button {
+    height: 30px;
+    border-style: none;
+    width: 60px;
+    background-color: lightgray;
+    font-size: 1.6rem;
+    cursor: pointer;
+}
+
+.nav-right {
+    justify-content: flex-end;
+}
+
+.button {
+    margin-right: 27px;
+    cursor: pointer;
+    color: gray;
+    font-size: 1.7rem;
+}
+
+.avatar-logo {
+    width: 38px;
+    height: auto;
+    border-radius: 100%;
+    cursor: pointer;
+}
+/*nav-bar  end*/
+
+
+/*main-content start*/
+.main-container {
+    display: block;
+    width: 68%;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+.main-content-container {
+    border-bottom: 1px solid lightgray;
+    margin-top: 80px;
+}
+
+main{
+    display: flex;
+    width: 100%;
+    margin: 0 auto;
+    flex-flow: row;
+}
+
+.video-player{
+    margin-top: 40px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.main-video {
+    width: 100%;
+    height: 514px;
+}
+
+h1 {
+    font-size: 1.8rem;
+}
+
+/*social-bar start*/
+.social-bar{
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: gray;
+    border-bottom: 1px solid lightgray;
+    padding-bottom: 20px;
+    font-size: 1.3rem;
+}
+
+
+
+.likes-dislikes-shares {
+    font-weight: bold;
+}
+
+fas .fa-thumbs-up, .fa-thumbs-down, .fa-share, .fa-folder-plus, .fa-ellipsis-h {
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+button, label, .fa-thumbs-up, .fa-thumbs-down, .fa-share, .fa-folder-plus, .fa-ellipsis-h {    
+    cursor: pointer;
+}
+/*social-bar end*/
+
+/*sentiment-bar start*/    
+.sentiment-bar {
+    width: 123px;
+    background: rgba(90, 90, 90, 0.5);
+    margin-left: -9px;
+    margin-top: 20px;
+    margin-bottom: -21px;
+}
+.inside-bar {
+    width: 71%;
+    height: 3px;
+    background: rgb(59, 59, 59);
+}
+/*sentiment-bar end*/
+
+/*main-content end*/
+
+.channel-section {
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row;
+}
+
+.avatar-section {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+}
+
+.channel-avatar-logo {
+    display: block;
+    margin-right: auto;
+}
+
+.channel-name {
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+    font-size: 1.4rem;
+}
+
+.fa-check-circle {
+    color: gray;
+    margin-left: 2px;
+    font-size: 1.2rem;
+}
+
+.subscribers {
+    color: rgb(110, 109, 109);
+    font-size: 1.2rem;
+    line-height: 2;
+}
+
+.title-channel {
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.subscribe-button {
+    background-color: #c00;
+    color: white;
+    font-weight: bold;
+    border-style: none;
+    border-radius: 2px;
+    width: 105px;
+    height: 36px;
+    margin-top: 10px;
+}
+
+.description-section {
+    margin: 17px 0px 20px 58px;
+}
+
+.description-content {
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 2.1rem;
+}
+
+div .description-section .show-more {
+    margin-top: 8px;
+    font-size: 1.3rem;
+    font-weight: 500;
+    letter-spacing: 0.007px;
+    text-transform: uppercase;
+    border-style: none;
+    background: transparent;
+    padding-left: 0;
+    color: gray;
+}
+
+.comments {
+    text-align: center;
+    font-size: 1.4rem;
+    padding-top: 32px;
+    font-weight: 400;
+}
+
+/** Autoplay Toggle **/
+
+.autoplay-toggle {
+    position: relative;
+    display: inline-block;
+    width: 42px;
+    height: 14px;
+    z-index: 1;
+  }
+  
+  .autoplay-toggle input { 
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 11px;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    top: -3px;
+    left: -11px;
+    right: 0px;
+    height: 20px;
+    width: 20px;
+    background-color: gray;
+    -webkit-transition: .4s;
+    transition: .4s;
+    box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.6);
+  }
+  
+  input:checked + .slider {
+    background-color: #2196F3;
+  }
+  
+  input:focus + .slider {
+    box-shadow: 0 0 1px #2196F3;
+  }
+  
+  input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+  }
+  
+  /* Rounded sliders */
+  .slider.round {
+    border-radius: 34px;
+  }
+  
+  .slider.round:before {
+    border-radius: 50%;
+  }
+
+/*Recommended Container*/
+
+/* .video-container {
+    display: block;
+} */
+
+.upnext-video {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    border-bottom: 1px solid lightgray;
+    padding-bottom: 10px;
+    cursor: pointer;
+}
+
+.recommended-container {
+    margin-top: 75px;
+    width: 32%;
+    margin-left: 20px;
+    padding-right: 24px;
+}
+
+.upnext-container {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.autoplay {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.upnext {
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 2rem;
+    color: black;
+}
+
+.autoplay-text {
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: gray;
+    padding-right: 15px;
+}
+
+/* Up Next Video */
+
+.video-thumbnail {
+    display: block;
+    margin-top: 10px;
+}
+
+.duration {
+    position: relative;
+    bottom: 16px;
+    left: 128px;
+    margin: 4px;
+    background-color: black;
+    color: white;
+    border-radius: 3px;
+    padding: 4px;
+}
+
+.video-description {
+    margin: 0 0 4px 0;
+    display: -webkit-box;
+    max-height: 3.2rem;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: normal;
+    -webkit-line-clamp: 2;
+    font-size: 1.4rem;
+    font-weight: bolder;
+    line-height: 1.6rem;
+}
+
+.video-title {
+    padding-left: 6px;
+    padding-top: 10px;
+    cursor: pointer;
+}
+
+.recommended-channel-name {
+    font-size: 1.2rem;
+    color: gray;
+    line-height: 2;
+    cursor: pointer;
+}
+
+.total-views {
+    font-size: 1.1rem;
+    color: gray;
+    line-height: 1.2;
+    cursor: pointer;
+}
+
+/*Recommended section*/
+
+.recommended-video {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    padding-bottom: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+}
