@@ -42,4 +42,3 @@ Contributions, issues and feature requests are welcome! Start by:
 ## 📝 License
 
 This project is [MIT](https://opensource.org/licenses/MIT) licensed.
-
