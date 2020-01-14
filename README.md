@@ -4,7 +4,7 @@
 
 ![screenshot](https://camo.githubusercontent.com/299c86cc8ad6e5e86d57300660cd808095c080cd/68747470733a2f2f7261772e6769746861636b2e636f6d2f72616d6d617a7a6f7469323030302f796f75747562652d7265706c6963612f666561747572652d6272616e63682f73637265656e73686f74732f7265706c6963612d73637265656e73686f742e706e67)
 
-The page tries to replicates as much as possible the actual YouTube page.
+The page tries to replicate as much as possible the actual YouTube page.
 
 ## Built With
 
