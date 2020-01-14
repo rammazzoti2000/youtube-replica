@@ -205,7 +205,7 @@ fas .fa-thumbs-up, .fa-thumbs-down, .fa-share, .fa-folder-plus, .fa-ellipsis-h {
     cursor: pointer;
 }
 
-button, label, fas .fa-thumbs-up, .fa-thumbs-down, .fa-share, .fa-folder-plus, .fa-ellipsis-h {    
+button, label, .fa-thumbs-up, .fa-thumbs-down, .fa-share, .fa-folder-plus, .fa-ellipsis-h {    
     cursor: pointer;
 }
 /*social-bar end*/
