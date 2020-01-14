@@ -183,8 +183,11 @@ h1 {
 .left-content {
     display: block;
     width: 70%;
-    border-bottom: 1px solid lightgray;
     margin-bottom: 20px;
+}
+.main-content-container {
+    border-bottom: 1px solid lightgray;
+
 }
 
 .likes-dislikes-shares {
@@ -271,5 +274,30 @@ button, label, fas .fa-thumbs-up, .fa-thumbs-down, .fa-share, .fa-folder-plus, .
 }
 
 .description-section {
-    margin: 20px 0px 20px 58px;
+    margin: 17px 0px 20px 58px;
+}
+
+.description-content {
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 2.1rem;
+}
+
+div .description-section .show-more {
+    margin-top: 8px;
+    font-size: 1.3rem;
+    font-weight: 500;
+    letter-spacing: 0.007px;
+    text-transform: uppercase;
+    border-style: none;
+    background: transparent;
+    padding-left: 0;
+    color: gray;
+}
+
+.comments {
+    text-align: center;
+    font-size: 1.4rem;
+    padding-top: 32px;
+    font-weight: 400;
 }
