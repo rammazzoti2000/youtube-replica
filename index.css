@@ -68,9 +68,13 @@ nav {
     flex-flow: row wrap;
     justify-content: space-between;
     align-items: center;
-    width: 90%;
     margin: 0 auto;
-    padding-top: 20px;
+    padding: 10px 20px;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    width: 100%;
+
 }
 
 .fa-bars {
@@ -128,14 +132,14 @@ input[type="text"] {
 }
 
 .button {
-    margin-right: 40px;
+    margin-right: 27px;
     cursor: pointer;
     color: gray;
-    font-size: 2rem;
+    font-size: 1.7rem;
 }
 
 .avatar-logo {
-    width: 40px;
+    width: 38px;
     height: auto;
     border-radius: 100%;
     cursor: pointer;
@@ -144,6 +148,16 @@ input[type="text"] {
 
 
 /*main-content start*/
+.main-container {
+    display: block;
+    width: 70%;
+    margin-bottom: 20px;
+}
+.main-content-container {
+    border-bottom: 1px solid lightgray;
+    margin-top: 80px;
+}
+
 main{
     display: block;
     width: 90%;
@@ -180,15 +194,7 @@ h1 {
     font-size: 1.3rem;
 }
 
-.left-content {
-    display: block;
-    width: 70%;
-    margin-bottom: 20px;
-}
-.main-content-container {
-    border-bottom: 1px solid lightgray;
 
-}
 
 .likes-dislikes-shares {
     font-weight: bold;
