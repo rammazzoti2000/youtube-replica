@@ -113,6 +113,10 @@ input[type="text"] {
     font-size: 1.6rem;
 }
 
+input[type="text"]:focus {
+  outline: none;
+}
+
 .nav-search-button{
     border-radius: 3px;
     border: 1px solid lightgray;
@@ -125,6 +129,13 @@ input[type="text"] {
     background-color: lightgray;
     font-size: 1.6rem;
     cursor: pointer;
+    outline: none;
+}
+
+.search-button:active {
+  background-color: rgb(194, 194, 194);
+  outline: none;
+  color: rgb(0, 0, 0);
 }
 
 .nav-right {
@@ -277,6 +288,11 @@ button, label, .fa-thumbs-up, .fa-thumbs-down, .fa-share, .fa-folder-plus, .fa-e
     width: 105px;
     height: 36px;
     margin-top: 10px;
+    outline: none;
+}
+
+.subscribe-button:active{
+  background-color: rgb(175, 0, 0)
 }
 
 .description-section {
@@ -299,6 +315,7 @@ div .description-section .show-more {
     background: transparent;
     padding-left: 0;
     color: gray;
+    outline: none;
 }
 
 .comments {
