@@ -2,7 +2,7 @@
 
 > Youtube replica
 
-![screenshot](https://rawcdn.githack.com/rammazzoti2000/youtube-replica/dd49d5ee52cd2ab517b3c06e2873880fdbdc9352/index.html)
+![screenshot](/screenshots/replica-screenshot.png)
 
 The page tries to replicate as much as possible the actual YouTube page.
 
