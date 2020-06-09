@@ -1,10 +1,8 @@
 # Embedding Images and Video Project
 
-> Youtube replica
+> This is a project of a Youtube clone page. We used the original youtube page as a reference omitting some parts and using only HTML and CSS.
 
 ![screenshot](/screenshots/replica-screenshot.png)
-
-The page tries to replicate as much as possible the actual YouTube page.
 
 ## Built With
 
@@ -14,6 +12,9 @@ The page tries to replicate as much as possible the actual YouTube page.
 ## Live Demo
 
 [Live Demo Link](https://rawcdn.githack.com/rammazzoti2000/youtube-replica/e012414eef2e1ff4c1f27b8fa237517e0b0ec1a9/index.html)
+
+## Automated Test
+> There are no automated tests for this project yet
 
 
 ## Authors
